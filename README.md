@@ -15,10 +15,12 @@ Para el uso de este proyecto realizar los siguientes pasos:
 
 ![](https://i.stack.imgur.com/9E2Gd.png)
 
+![](https://t1.daumcdn.net/cfile/tistory/2550AC3855A1FEBB26)
+
 
 ![](https://cdn.iconscout.com/icon/free/png-256/firebase-1-282796.png)
 
-![](https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg)
+![](https://www.adobe.io/xd/static/68035054a7ed8d507190e34b7f7690ef/6f3f2/xd-icon.png)
 
 
 
