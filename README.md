@@ -11,20 +11,23 @@ Para el uso de este proyecto realizar los siguientes pasos:
 - Ejecutar el proyecto.
 
 
-#Tecnologías Utilizadas.
+# Tecnologías Utilizadas.
 
 ![](https://i.stack.imgur.com/9E2Gd.png)
 
-> Android Studio
+
 ![](https://cdn.iconscout.com/icon/free/png-256/firebase-1-282796.png)
 
-> Firebase
+![](https://www.adobe.com/content/dam/shared/images/product-icons/svg/acrobat-reader.svg)
 
 
-#Links
+
+
+# Links
 [Firebase](https://firebase.google.com/?hl=es)
 [Android Studio](https://developer.android.com/studio?hl=es)
-[Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)
+
+
 
           
-###End
+# End
