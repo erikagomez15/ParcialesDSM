@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@drawable/sombrero" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viva Mexico"
+        android:textSize="20dp"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="-35dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola, Usuario"
+        android:textSize="35dp"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginTop="-20dp"/>
+
+
+    <TextView
+        android:id="@+id/correo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Correo"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Qué deseas hoy?"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="15dp"/>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btncomida"
+        android:onClick="VentanaComida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="150dp"
+        android:clickable="true"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/comida" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comida"
+            android:textColor="@color/naranja"
+            android:textSize="25dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnbebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:onClick="VentanaBebida"
+        android:clickable="true"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bebida" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bebida"
+            android:textColor="@color/naranja"
+            android:textSize="25dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="-150dp"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Salir sesión"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+</LinearLayout>

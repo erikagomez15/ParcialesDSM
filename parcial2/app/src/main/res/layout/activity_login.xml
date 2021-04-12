@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF6305"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="-80dp"
+        android:alpha="0.6"
+        app:srcCompat="@drawable/top_login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@drawable/sombrero" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Viva México"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:background="@drawable/bordes_redondos"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Usuario" />
+
+    <EditText
+        android:id="@+id/contra"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:background="@drawable/bordes_redondos"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Contraseña"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido!"
+        android:textSize="50dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="67dp"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/quicksand_medium"
+
+        android:text="Iniciar Sesion"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/google"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="110dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="GOOGLE Sign-In"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No estás registrado?"
+        android:textColor="@color/white"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="15dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="130dp"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="110dp"
+        android:text="REGISTER"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksand_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:backgroundTint="#4CAF50"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google"/>
+
+
+</RelativeLayout>

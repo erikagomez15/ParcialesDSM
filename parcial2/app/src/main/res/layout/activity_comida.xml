@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ComidaActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@drawable/sombrero" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viva Mexico"
+        android:textSize="20dp"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="-35dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comida"
+        android:textSize="50dp"
+        android:textColor="@color/naranja"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedorcomida"/>
+
+
+</LinearLayout>

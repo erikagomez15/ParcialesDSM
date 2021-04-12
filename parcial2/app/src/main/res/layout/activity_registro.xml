@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF6305"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="-80dp"
+        android:alpha="0.6"
+        app:srcCompat="@drawable/top_login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@drawable/sombrero" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Viva México"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:background="@drawable/bordes_redondos"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:background="@drawable/bordes_redondos"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Contraseña"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/quicksand_medium"
+
+        android:text="Registrase"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de usuario"
+        android:textSize="35dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
